@@ -1,0 +1,1 @@
+.\program_qspi_rza2m.bat .\Renesas\program_rza2m_barcode_type.command

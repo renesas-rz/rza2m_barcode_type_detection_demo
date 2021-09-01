@@ -1,0 +1,3 @@
+rza2m_sflash_boot_sample_osless_gcc.elf: ../generate/linker_script.ld
+
+# vim:noexpandtab:

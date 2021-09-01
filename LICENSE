@@ -1,0 +1,16 @@
+Licenses to be respected:
+
+Renesas Electronics Corporation
+Embedded Software License Agreement:
+  L-339_rz_software_package_Embedded_Software_License_Agreement_en.pdf
+
+
+Open source software used in this package and licenses of them are shown as follows:
+- newlib is used under the license described in following site:
+   https://www.sourceware.org/newlib/COPYING.NEWLIB
+- FreeRTOSTM is a trade mark of Amazon Web Services, Inc.
+- FreeRTOS is used under MIT license described in following site:
+   https://www.freertos.org/a00114.html
+- openCV is open-source software distributed under 3-clause BSD License.
+  Regarding the 3-clause BSD License,please refer to
+   https://github.com/opencv/opencv/blob/3.2.0/LICENSE
