@@ -1,0 +1,60 @@
+<HTML>
+<HEAD>
+  <TITLE>README.html</TITLE>
+</HEAD>
+<BODY style="font-family: Arial">
+
+<p>﻿# rza2m<em>barcode</em>type<em>detection</em>demo</p>
+
+<p>Barcode Type Detection Demo with <a href="https://www.renesas.com/eu/en/products/microcontrollers-microprocessors/rz-cortex-a-mpus/rza2m-high-speed-embedded-ai-based-image-processing-microprocessors-dynamically-reconfigurable-processor">RZ/A2M</a>  </p>
+
+<p align="center"> 
+    <img src="https://github.com/renesas-rz/rza2m_barcode_type_detection_demo/blob/master/barcode_type_detection_demo.jpg" alt="">
+    <img src="https://github.com/renesas-rz/rza2m_barcode_type_detection_demo/blob/master/barcode_type_detection_concept.jpg" alt="">
+</p>
+
+<p>This demo can quickly identify 5 kinds of barcode encoding formats including QR, Micro QR, DataMatrix, AZTec and HanXin code in 8~10ms when data is received from a 1280x720 (1 million) camera </p>
+
+<p>This demo also integrated ZXing as backend of barcode decoding. When barcode type detection module successfully detected a barcode image, it will output barcode type and cropped barcode image to ZXing module. It will reduce ZXing decoding time. In this sample, it can support 3 kinds of barcode decoding: QR, DataMatrix and AZTec</p>
+
+<p>Finally, the result is shown on a display (HDMI monitor).</p>
+
+<h3>Supported platforms:</h3>
+
+<ol>
+<li><p><a href="https://www.renesas.com/eu/en/products/microcontrollers-microprocessors/rz-cortex-a-mpus/rza2m-evaluation-kit-rza2m-evaluation-kit">RZ/A2M Evaluation Board Kit</a> <br />
+<a href="https://www.renesas.com/eu/en/software-tool/e-studio">e²studio</a> project name: “rza2m<em>barcode</em>type<em>freertos</em>gcc_evk” <br />
+(<a href="https://www.renesas.com/eu/en/document/mat/e-studio-integrated-development-environment-users-manual-getting-started-renesas-mcu-rz-family?language=en&amp;r=488826">e²studio User’s Manual: Getting Started Guide / RZ Family</a>)</p></li>
+<li><p><a href="https://www.renesas.com/eu/en/products/gadget-renesas/boards/gr-mango">Gadget Renesas board “GR-MANGO”</a> <br />
+<a href="https://www.renesas.com/eu/en/software-tool/e-studio">e²studio</a> project name: “rza2m<em>barcode</em>type<em>freertos</em>gcc_grmango” <br />
+(<a href="https://github.com/renesas-rz/rza2m_barcode_type_detection_demo/blob/master/rza2m_barcode_type_freertos_gcc_grmango/doc/EPSD-IMB-20-0107-02_RZA2M_SoftwarePackage_for_GR-MANGO_Development_Environment_Construction.pdf">e²studio for GR-MANGO</a>; <a href="https://github.com/renesas-rz/rza2m_barcode_type_detection_demo/blob/master/rza2m_barcode_type_freertos_gcc_grmango/doc/EPSD-IMB-20-0106-01_RZA2M_SoftwarePackage_for_GR-MANGO_Hands_on_Training.pdf">GR-MANGO 'hands-on'</a>)</p></li>
+</ol>
+
+<h3>Key features:</h3>
+
+<p>Barcode Type Detection format support: QR, MicroQR, AZTEC, DataMatrix, HanXin.</p>
+
+<p>Barcode Decoding format support: QR, AZTEC, DataMatrix.</p>
+
+<p>Barcode Type Detection performance: 8 to 12ms.</p>
+
+<p>Total duration(detection+decoding): 12 to 16ms.</p>
+
+<p>(<a href="https://www.renesas.com/eu/en/application/technologies/drp">DRP</a>).</p>
+
+<h3>More:</h3>
+
+<p>Please check the 
+<a href="https://github.com/renesas-rz/rza2m_barcode_type_detection_demo/blob/master/rza2m_barcode_type_freertos_gcc_evk/doc/RZA2M_Barcode_Type_Detection_demo_ApplicationNote_20210816.pdf">Application Note</a>
+for more details.</p>
+
+<p>Please contact your local Renesas Sales representative in case you like to get more information about <a href="https://www.renesas.com/eu/en/products/microcontrollers-microprocessors/rz-cortex-a-mpus/rza2m-high-speed-embedded-ai-based-image-processing-microprocessors-dynamically-reconfigurable-processor">RZ/A2M</a>, <a href="https://www.renesas.com/eu/en/application/technologies/drp">DRP</a></p>
+
+<h2>Q&amp;A</h2><hr>
+
+<p>Please contact us below if you have any questions.　
+&nbsp;<a href="https://renesasrulz.com/rz/rz-a2m-drp/f/rz-a2m-and-drp-forum">Q&amp;A Forum</a>  </p>
+
+</BODY>
+</HTML>
+
